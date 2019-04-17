@@ -1,0 +1,50 @@
+//class for xl-screen
+$trigger-width: 95rem;
+
+
+@media print, screen and (min-width: $trigger-width) {
+  .grid-x > .xlarge-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0px;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0px;
+    width: auto; }
+  .grid-x > .xlarge-shrink, .grid-x > .xlarge-1, .grid-x > .xlarge-2, .grid-x > .xlarge-3, .grid-x > .xlarge-4, .grid-x > .xlarge-5, .grid-x > .xlarge-6, .grid-x > .xlarge-7, .grid-x > .xlarge-8, .grid-x > .xlarge-9, .grid-x > .xlarge-10, .grid-x > .xlarge-11, .grid-x > .xlarge-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
+  .grid-x > .xlarge-shrink {
+    width: auto; }
+  .grid-x > .xlarge-1 {
+    width: 8.33333%; }
+  .grid-x > .xlarge-2 {
+    width: 16.66667%; }
+  .grid-x > .xlarge-3 {
+    width: 25%; }
+  .grid-x > .xlarge-4 {
+    width: 33.33333%; }
+  .grid-x > .xlarge-5 {
+    width: 41.66667%; }
+  .grid-x > .xlarge-6 {
+    width: 50%; }
+  .grid-x > .xlarge-7 {
+    width: 58.33333%; }
+  .grid-x > .xlarge-8 {
+    width: 66.66667%; }
+  .grid-x > .xlarge-9 {
+    width: 75%; }
+  .grid-x > .xlarge-10 {
+    width: 83.33333%; }
+  .grid-x > .xlarge-11 {
+    width: 91.66667%; }
+  .grid-x > .xlarge-12 {
+    width: 100%; } }
+
+@media screen and (max-width: $trigger-width) {
+  .show-for-xlarge {
+    display: none !important; } }
+
+@media screen and (min-width: $trigger-width) {
+  .hide-for-xlarge-only {
+  display: none !important; } }
